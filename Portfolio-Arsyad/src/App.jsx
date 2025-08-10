@@ -3,21 +3,22 @@ import Navbar from "./sections/Navbar";
 import Hero from "./sections/Hero";
 import About from "./sections/About";
 import Projects from "./sections/Projects";
+import Experiences from "./sections/Experiences";
+import Testimonial from "./sections/Testimonial";
+import Contact from "./sections/Contact";
+import Footer from "./sections/Footer";
 
 const App = () => {
   return (
     <div className="container mx-auto max-w-7xl">
       <Navbar />
-      <Hero />
-      <About />
-      <Projects />
-      <section className="min-h-screen" />
-      <section className="min-h-screen" />
-      <section className="min-h-screen" />
-      {/* Eperience */}
-      {/* Testimonial */}
-      {/* Contact */}
-      {/* Footer */}
+      <Hero id="home" />
+      <About id="about" />
+      <Projects id="work" />
+      <Experiences />
+      <Testimonial />
+      <Contact id="contact" />
+      <Footer />
     </div>
   );
 };
